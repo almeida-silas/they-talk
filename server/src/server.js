@@ -13,7 +13,6 @@ server.listen(port, () => {
    console.log(`server running in port ${port}`);
 });
 
-//
 let messages = []
 
 server.on('connection', socket => {
