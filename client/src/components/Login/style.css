@@ -76,5 +76,5 @@ form textarea {
 }
 
 .button:hover {
-   filter: brightness(90%)
+   filter: brightness(90%);
 }

@@ -5,7 +5,6 @@ import { FiLogIn } from 'react-icons/fi';
 import './style.css';
 
 export default function Login() {
-
    const [username, setUsername] = useState('');
    const history = useHistory();
 
@@ -21,7 +20,7 @@ export default function Login() {
       <div className="logon-container">
          <section className="form">
             <form onSubmit={handleLogin}>
-               <h1>Login</h1>
+               <h1>Web Chat</h1>
 
                <input
                   type="text"
