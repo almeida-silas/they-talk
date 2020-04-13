@@ -78,10 +78,11 @@ body {
    display: flex;
    position: relative;
    border-radius: 5px;
+   width: fit-content;
    background-color: rgb(217, 230, 225);
    box-shadow: 0 10px 20px rgba(92, 91, 91, 0.15);
    padding: 10px;
-   margin: 0 0 8px;
+   margin: 0 10px 8px;
    align-items: center;
 }
 
@@ -91,8 +92,6 @@ body {
    word-break: break-all;
    margin-left: 15px;
    padding: 0 15px;
-   border-radius: 6px;
-   font-size: 0.9rem;
 }
 
 .messages .message .info_user {
