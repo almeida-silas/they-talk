@@ -29,7 +29,7 @@ body {
    max-width: 800px;
    height: 500px;
    border-radius: 10px;
-   background-color: rgb(255, 245, 245);
+   background-color: #e7f7d0;
    left: 50%;
    top: 50%;
    transform: translateX(-50%) translateY(-50%);
@@ -39,7 +39,7 @@ body {
 
 .top_menu {
    margin: 0;
-   background-color: #fff;
+   background-color: #ffff;
    width: 100%;
    display: inline-block;
    padding: 20px 0 15px;
@@ -51,11 +51,6 @@ body {
    float: right;
    margin-right: 30px;
    position: relative;
-}
-
-.top_menu .power:hover {
-   color: #a3d063;
-   background-color: #fff;
 }
 
 .top_menu .title {
@@ -79,8 +74,8 @@ body {
    position: relative;
    border-radius: 5px;
    width: fit-content;
-   background-color: rgb(217, 230, 225);
-   box-shadow: 0 10px 20px rgba(92, 91, 91, 0.15);
+   color: rgb(160, 160, 160);
+   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
    padding: 10px;
    margin: 0 10px 8px;
    align-items: center;
@@ -90,6 +85,7 @@ body {
    display: flex;
    position: relative;
    word-break: break-all;
+   color: black;
    margin-left: 15px;
    padding: 0 15px;
 }
@@ -132,17 +128,16 @@ body {
    height: 50px;
    display: flexbox;
    border-radius: 50px;
-   background-color: #a3d063;
-   border: 2px solid #a3d063;
+   background-color: #cfe9ab;
+   border: 2px solid #cfe9ab;
    color: #fff;
    cursor: pointer;
    transition: all 0.2s linear;
-   text-align: center;
    float: right;
 }
 
 .bottom_wrapper .send_message:hover {
-   color: #a3d063;
+   color: #e0f5c2;
    background-color: #fff;
 }
 
