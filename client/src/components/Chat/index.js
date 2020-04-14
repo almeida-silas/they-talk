@@ -1,12 +1,10 @@
 import React, { useEffect, useState } from 'react';
 import { FiSend } from 'react-icons/fi';
-import io from 'socket.io-client';
+import socket from '../../config/socketio';
+
 import './style.css';
 
-const socket = io.connect('http://localhost:3333');
-
 export default function Chat() {
-
    const [username, setUsername] = useState('');
    const [message, setMessage] = useState('');
    const [allMessages, setAllMessages] = useState([]);
