@@ -129,7 +129,7 @@ body {
    display: flexbox;
    border-radius: 50px;
    background-color: #cfe9ab;
-   border: 2px solid #cfe9ab;
+   border: 2px solid #cfe9ab  ;
    color: #fff;
    cursor: pointer;
    transition: all 0.2s linear;
