@@ -38,7 +38,7 @@ export default function Chat() {
       <>
          <div className="top_menu">
             <div className="online">Online: {clients}</div>
-            <div className="box-username">Bem-Vindo: <h1 className="username">{username}</h1></div>
+            <div className="box-username">Welcome: <h1 className="username">{username}</h1></div>
          </div>
 
          <div className="chat_window">
