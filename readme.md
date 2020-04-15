@@ -24,7 +24,7 @@ It works on every platform, browser or device, focusing equally on reliability a
 2. Move yourself to the appropriate directory: `cd they-talk`
 3. Run `yarn` to install dependencies
 
-## Getting started - Client
+## Getting started with client
 
 1. Move yourself to the backend folder: `cd client`
 3. Run `yarn start`
